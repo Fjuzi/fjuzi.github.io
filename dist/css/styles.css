@@ -10159,3 +10159,17 @@ section.resume-section .resume-section-content {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
