@@ -10173,3 +10173,23 @@ section.resume-section .resume-section-content {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+
+.a_own{
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.a_own:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.a_own:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+.a_own:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+}
